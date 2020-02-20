@@ -5,131 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>xTell</title>
     <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">  
+    <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="main-header">
         <div class="container">
             <div class="header__logo">
-                <a>xTell</a>
+                <a>Андрей Евстафьев</a>
             </div>
             <nav class="main-nav">
-                <button class="main-nav__toggle" type="button"></button>
-                <div class="main-nav__wrapper">
                     <ul class="main-nav__list">
-                        <li class="main-nav__item">
-                            <a href="#portfolio">Портфолио</a>
-                        </li>
                         <li class="main-nav__item">
                             <a href="#contacts">Контакты</a>
                         </li>
 
                     </ul>
-                </div>
             </nav>
         </div>
     </header>
     <main>
         <section class="page-section about-me">
-            <h2 class="page-section__title about-me__title">
-                Обо мне
-            </h2>
-            <img src="img/photo.jpg" alt="Моя фотография" class="about-me__image">
-            <div class="about-me__text">
-                <b>Здравствуйте!</b>
-                <p>
-                    Меня зовут Андрей, я частный специалист по
-                    созданию лендингов,  многостраничных сайтов и
-                    интернет-магазинов. 
-
-                    Мне 24 года, 5 из которых я специализируюсь на 
-                    разработке пользовательских интерфейсов и 
-                    создании сайтов. С каждым новым проектом 
-                    совершенствую свои умения, изучаю и внедряю 
-                    новые методы. Всегда открыт к новым проектам.
-
-                    Не занимаюсь "конвейерной" разработкой, к 
-                    созданию каждого сайта подхожу индивидуально. 
-                    Работаю напрямую с заказчиком, поэтому, 
-                    заказав сайт у меня, Вы получите его намного 
-                    дешевле, чем если бы заказали у веб-студии. 
-                    Со многими из клиентов работаю на постоянной 
-                    основе в качестве внештатного специалиста.
-
-                    Я доступен утром, днём и вечером,
-                    буду рад приложить все имеющиеся навыки и
-                    знания.
-                </p>
-                <a href="" class="btn about-me__btn">Скачать CV</a>
+            <div class="container">
+                <h2 class="page-section__title about-me__title">
+                    Обо мне
+                </h2>
+                <div class="about-me__wrapper">
+                    <div class="about-me__info">
+                        <b>Здравствуйте!</b>
+                        <p>
+                            Я Андрей, начинающий web-разработчик. Мне 24 года, живу в Челябинске.
+                            Мне интересна верстка, и, в дальнейшем планирую развиваться как frontend разработчик. В работе я использую препроцессор Sass и Gulp.js для сборки проектов. Также, имею опыт работы с PHP и MySQL. 
+                        </p>
+                        <b>Образование</b>
+                        <p>
+                            Окончил бакалавриат Математического факультета ЧелГУ по специальности "Фундаментальная информатика и информационные технологии" (2018). В настоящее время обучаюсь в магистратуре на этой же специальности.
+                        </p>
+                        <a href="" class="btn about-me__btn">Скачать CV</a>
+                    </div>
+                </div>
             </div>
+
         </section>
         <section class="page-section skills">
-            <h2 class="page-section__title skills__title">
-                Навыки
-            </h2>
-            <ul class="skills__list">
-                <li class="skill__item">HTML</li>
-                <li class="skill__item">CSS</li>
-                <li class="skill__item">PHP</li>
-                <li class="skill__item">Python</li>
-                <li class="skill__item">MySQL</li>
-                <li class="skill__item">UNIX</li>
-            </ul>
-        </section>
-        <section class="page-section portfolio">
-            <h2 class="page-section__title portfolio__title">
-                Портфолио
-            </h2>
-            <ul class="portfolio__list">
-                <li class="portfolio__item">
-                    <h3 class="portfolio__title">Название проекта</h3>
-                    <img src="https://via.placeholder.com/536" alt="Превью проекта" class="portfolio__preview">
-                    <p class="portfolio__describe">
-                         Описание проекта
-                         <a href="#" class="portfolio__link">Перейти</a>
-                    </p>
-                </li>
-                <li class="portfolio__item">
-                    <h3 class="portfolio__title">Название проекта</h3>
-                    <img src="https://via.placeholder.com/536" alt="Превью проекта" class="portfolio__preview">
-                    <p class="portfolio__describe">
-                         Описание проекта
-                         <a href="#" class="portfolio__link">Перейти</a>
-                    </p>
-                </li>
-                <li class="portfolio__item">
-                    <h3 class="portfolio__title">Название проекта</h3>
-                    <img src="https://via.placeholder.com/536" alt="Превью проекта" class="portfolio__preview">
-                    <p class="portfolio__describe">
-                         Описание проекта
-                         <a href="#" class="portfolio__link">Перейти</a>
-                    </p>
-                </li>
-                <li class="portfolio__item">
-                    <h3 class="portfolio__title">Название проекта</h3>
-                    <img src="https://via.placeholder.com/536" alt="Превью проекта" class="portfolio__preview">
-                    <p class="portfolio__describe">
-                         Описание проекта
-                         <a href="#" class="portfolio__link">Перейти</a>
-                    </p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="page-section__title skills__title">
+                    Навыки
+                </h2>
+                <ul class="skills__list">
+                    <li class="skills__item">HTML</li>
+                    <li class="skills__item">CSS</li>
+                    <li class="skills__item">JS</li>
+                    <li class="skills__item">Sass</li>
+                    <li class="skills__item">Gulp.js</li>
+                    <li class="skills__item">PHP</li>
+                    <li class="skills__item">MySQL</li>
+                </ul>
+            </div>
+
         </section>
     </main>
-    <footer class="main-footer">
-        <p class="main-footer__phone">
-            <a href="">Показать телефон</a>
-        </p>
-        <p class="main-footer__email">
-            <span>Email:</span>
-            evstafyevan96@gmail.com 
-        </p>
-        <p class="main-footer__social">
-            Соц. сети:
-            <a href="" class="main-footer__social-link">Github</a>
-            <a href="" class="main-footer__social-link">Telegram</a>
-            </ul>
-        </p>
+    <footer class="main-footer" id="contacts">
+        <div class="container">
+            <a class="btn main-footer__phone-btn" href="">Показать телефон</a>
+            <p class="main-footer__email">
+                <span>Email:</span>
+                <a href="mailto:evstafyevan96@gmail.com ">evstafyevan96@gmail.com </a>
+            </p>
+            <div class="main-footer__social">
+                <span>Социальные сети:</span>
+                <ul class="main-footer__social-list">
+                    <li class="main-footer__social-item">
+                        <a href="https://github.com/Xtell" class="main-footer__social-icon main-footer__social-icon--github">
+                            <svg width="30.336" height="29.578"><path d="M10.147 23.816c0 .122-.141.22-.318.22-.2.018-.342-.08-.342-.22 0-.122.141-.22.318-.22.183-.019.342.079.342.22zm-1.9-.275c-.043.122.08.263.263.3a.287.287 0 00.379-.122c.037-.122-.08-.263-.263-.318a.314.314 0 00-.382.14zm2.7-.1c-.177.043-.3.159-.281.3.018.122.177.2.361.159s.3-.159.281-.281-.183-.201-.36-.182zM14.972 0A14.666 14.666 0 000 14.923a15.334 15.334 0 0010.367 14.63c.783.141 1.058-.342 1.058-.74 0-.379-.018-2.471-.018-3.755 0 0-4.281.917-5.18-1.823 0 0-.7-1.78-1.7-2.238 0 0-1.4-.96.1-.942a3.228 3.228 0 012.361 1.578 3.233 3.233 0 004.459 1.278 3.4 3.4 0 01.979-2.061c-3.426-.38-6.873-.875-6.873-6.759A4.635 4.635 0 017 10.489a5.779 5.779 0 01.159-4.153c1.278-.4 4.22 1.651 4.22 1.651a14.449 14.449 0 017.682 0s2.942-2.055 4.22-1.651a5.776 5.776 0 01.159 4.153 4.754 4.754 0 011.578 3.6c0 5.9-3.6 6.373-7.021 6.758a3.617 3.617 0 011.04 2.838c0 2.061-.018 4.612-.018 5.113 0 .4.281.881 1.058.74a15.192 15.192 0 0010.259-14.615C30.336 6.44 23.455 0 14.972 0zM5.945 21.094c-.08.061-.061.2.043.318.1.1.239.141.318.061.08-.061.061-.2-.043-.318-.098-.097-.239-.14-.318-.061zm-.661-.5c-.043.08.018.177.141.239a.182.182 0 00.263-.043c.043-.08-.018-.177-.141-.239-.122-.032-.22-.013-.263.049zm1.982 2.177c-.1.08-.061.263.08.379.141.141.318.159.4.061.08-.08.043-.263-.08-.379-.137-.132-.321-.154-.4-.056zm-.7-.9c-.1.061-.1.22 0 .361s.263.2.342.141a.279.279 0 000-.379c-.082-.135-.242-.194-.339-.117z" fill="#24292e"/></svg>
+                            <span class="visually-hidden">Github</span> </a></li>
+                    <li class="main-footer__social-item">
+                        <a href="https://t.me/evstafyevandrey" class="main-footer__social-icon main-footer__social-icon--telegram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30.339" height="29.579"><path d="M15.169 0A14.981 14.981 0 000 14.79a14.981 14.981 0 0015.169 14.79 14.981 14.981 0 0015.17-14.79A14.981 14.981 0 0015.169 0zm7.45 10.132L20.13 21.57c-.184.811-.679 1.008-1.37.626l-3.792-2.725-1.829 1.718a.966.966 0 01-.765.364l.269-3.763 7.028-6.19c.306-.262-.067-.411-.471-.149l-8.686 5.331-3.743-1.139c-.814-.25-.832-.793.171-1.175l14.625-5.5c.679-.237 1.273.162 1.052 1.164z" fill="#179cde"/></svg>
+                            <span class="visually-hidden">Telegram</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
