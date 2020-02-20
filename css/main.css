@@ -32,6 +32,7 @@ body {
 .btn {
     display: inline-block;
     font-size: 23px;
+    line-height: 28px;
     padding: 10px 28px;
     background-color: #3F8CF6;
     color: #ffffff;
@@ -187,6 +188,9 @@ body {
     padding: 44px 20px;
     border-top: 1px solid #E1E1E1;
 }
+.main-footer__phone {
+    margin: 0;
+}
 .main-footer__phone-btn {
     width: 190px;
     padding: 10px 0px;
@@ -194,22 +198,27 @@ body {
     cursor: pointer;
     box-sizing: border-box;
 }
-.main-footer__phone-btn a {
-    display: none;
-}
-.main-footer__phone-btn--show {
+
+.main-footer__phone-btn--link {
     background-color: transparent;
     border: 1px solid #3F8CF6;
     color: #3F8CF6;
+
 }
-.main-footer__phone-btn--show:hover,
-.main-footer__phone-btn--show:active {
-    background-color: transparent;
+.main-footer__phone-btn--link {
+    display: none;
 }
-.main-footer__phone-btn--show a {
+.main-footer__phone--shown .main-footer__phone-btn--link {
     display: inline-block;
     color: #3F8CF6;
     text-decoration: none;
+}
+.main-footer__phone--shown button {
+    display: none;
+}
+.main-footer__phone--shown:hover .main-footer__phone-btn--link,
+.main-footer__phone--shown:active .main-footer__phone-btn--link{
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .main-footer__email {
     width: 320px;
