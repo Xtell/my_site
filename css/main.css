@@ -29,9 +29,6 @@ body {
     line-height: 28px;
     color: #242526;
 }
-#contacts {
-    scroll-behavior: smooth;
-}
 .btn {
     display: inline-block;
     font-size: 23px;
@@ -112,6 +109,7 @@ body {
     background-repeat: no-repeat;
 }
 .about-me {
+    margin-top: 64px;
     margin-bottom: 28px;
 }
 .about-me__title {
