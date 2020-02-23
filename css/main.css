@@ -148,39 +148,33 @@ body {
     height: 260px;
     margin-top: 16px;
     margin-left: 16px;
-    background-color: #F5F5F5;
+    border: 2px solid #F5F5F5;
     color: #A8A8A8;
+    box-sizing: border-box;
+}
+.skills__item:hover {
+    border-color: #3F8CF6;
+    transition: border-color, 0.5s;
 }
 .skills__item:nth-child(4n+1) {
     margin-left: 0;
 }
-.portfolio__title {
-    margin: 0;
-    margin-bottom: 64px;
+.skills__icon {
+    width: 100px;
+    height: 150px;
 }
-.portfolio__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
+.skills__icon--git {
+    height: 45px;
 }
-.portfolio__item {
-    display: flex;
-    flex-direction: column;
-    width: 536px;
-    margin-right: 16px;
-
+.skills__icon--gulp {
+    width: 68px;
 }
-.portfolio__item:nth-child(2n) {
-    margin-right: 0;
+.skills__icon--php {
+    height: 53px;
 }
-.portfolio__preview {
-    width: 536px;
-    height: 536px;
+.skills__icon--mysql {
+    width: 140px;
 }
-
 .main-footer .container {
     display: flex;
     justify-content: space-between;
